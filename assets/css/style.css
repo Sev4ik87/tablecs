@@ -7,57 +7,47 @@ table {
   table-layout: fixed;
   border: 5px solid hsl(346, 87%, 48%);
   margin: 100px 100px 100px 100px;
-  background: #BDB76B;
+  background: #f0efec;
+}
+.tabc {
+  border: 2px solid rgb(66, 44, 227);
+  background-color: #becfbd;
 }
 
 tr {
   border: 2px solid rgb(66, 44, 227);
-  /* background-color: aqua; */
 }
 td {
   border: 2px solid rgb(38, 54, 235);
-  /* background-color: black; */
 }
 
 .bold {
   font-size: larger;
 }
-.othcol
-{
-color: blue;
+.othcol {
+  color: blue;
 }
 .Tb {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-style: normal;
   color: #e31c1c;
 }
-
-
-tbody {
- background:#B0C4DE	; 
-}
-
-
-
-tr:nth-child(even){ 
-  background-color: #4eba4e	; 
- } 
- tr
- td:first-of-type{ 
-  background-color: #26d4f3	; 
- } 
- tfoot {
-  background-color:#F4A460;
-  font-size:larger;
+th {
+  border: 2px solid rgb(38, 54, 235);
+  background-color: #5af0eb;
 }
 thead {
-  font-size: larger;
-  font-family:sans-serif;
-  background-color:#FFE4C4;
-  
-  }
-td:for(.first)
-{
-  background-color:#070707;
-
+  border: 2px solid rgb(38, 54, 235);
+  background-color: #f4f2c1;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+tfoot {
+  border: 2px solid rgb(38, 54, 235);
+  background-color: #f8b798;
+  font-size: 1rem;
+}
+tbody {
+  border: 2px solid rgb(38, 54, 235);
+  background-color: #a7b45a;
 }
