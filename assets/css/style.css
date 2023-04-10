@@ -6,7 +6,7 @@ table {
   height: 300px;
   table-layout: fixed;
   border: 5px solid hsl(346, 87%, 48%);
-  margin: 100px 100px 100px 100px;
+  margin: 100px;
   background: #f0efec;
 }
 .tabc {
@@ -24,12 +24,12 @@ td {
 .bold {
   font-size: larger;
 }
-.othcol {
+span {
   color: blue;
 }
-.Tb {
+caption {
   font-size: 1.6rem;
-  font-style: normal;
+  font-style: bold;
   color: #e31c1c;
 }
 th {
@@ -39,13 +39,13 @@ th {
 thead {
   border: 2px solid rgb(38, 54, 235);
   background-color: #f4f2c1;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bolder;
 }
 tfoot {
   border: 2px solid rgb(38, 54, 235);
   background-color: #f8b798;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 tbody {
   border: 2px solid rgb(38, 54, 235);
